@@ -21,6 +21,7 @@ declare -a BREW_APPS=(
   bash              # Bash Shell
   composer          # Composer PHP package manager
   git               # Git Client
+  gh                # GitHub CLI
   nodejs            # Node
   npm               # Node Package Manager
   php               # PHP
@@ -42,7 +43,9 @@ declare -a BREW_CASK_APPS=(
   google-backup-and-sync   # Google Cloud Storage
   iterm2                   # Terminal
   lastfm                   # Audioscrobbler Client
+  libreoffice              # LibreOffice
   lsd		                   # Next Gen ls Command
+  lunar                    # Control External Monitor Brightness 
   macdown                  # Markdown Editor
   mark-text                # Mark Text Markdown Editor
   menumeters               # System Graphs in the Toolbar
@@ -53,7 +56,7 @@ declare -a BREW_CASK_APPS=(
   qlmarkdown               # QuickLook generator for Markdown files
   rectangle                # Resize windows with the keyboard
   rescuetime               # Productivity Tracking
-  sequel-pro               # MySQL GUI
+  sequel-ace               # MySQL GUI
   slack                    # Chat/Communication
   soundflower              # Virtual Audio Output Device
   sublime-text             # Text Editor
@@ -62,6 +65,7 @@ declare -a BREW_CASK_APPS=(
   transmit                 # File Transfers
   vagrant                  # Virtual Machine Management
   virtualbox               # Virtual Machines
+  visual-studio-code       # IDE
   vlc                      # Video Player
 )
 
