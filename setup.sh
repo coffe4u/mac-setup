@@ -32,7 +32,6 @@ declare -a BREW_APPS=(
 
 # GUI Apps to install via Homebrew Package Manager using Cask
 declare -a BREW_CASK_APPS=(
-  atom                     # Code Editor
   caffeine                 # Prevent Sleep Mode
   clementine               # Music Player
   dashlane                 # Password Manager
@@ -44,7 +43,6 @@ declare -a BREW_CASK_APPS=(
   google-chrome            # Chrome Browser
   google-backup-and-sync   # Google Cloud Storage
   iterm2                   # Terminal
-  lastfm                   # Audioscrobbler Client
   libreoffice              # LibreOffice
   lsd		                   # Next Gen ls Command
   lunar                    # Control External Monitor Brightness 
@@ -64,7 +62,7 @@ declare -a BREW_CASK_APPS=(
   sublime-text             # Text Editor
   tableplus                # MySQL GUI
   tower                    # Git GUI
-  transmit                 # File Transfers
+  transmit                 # File Transfers(FTP)
   vagrant                  # Virtual Machine Management
   virtualbox               # Virtual Machines
   visual-studio-code       # IDE
@@ -217,7 +215,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 # Login screen message
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "What is thy bidding, my master?"
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Would you like to play a game?"
 
 # Show all device icons in finder
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -287,8 +285,8 @@ echo "Cloning .dotfiles repo..."
 echo ""
 
 if [ ! -d $HOMEDIR/.dotfiles ]; then
-  git clone https://github.com/bad-mushroom/dotfiles.git $HOMEDIR/.dotfiles
-  $HOMEDIR/.dotfiles/setup.sh
+  cp -R dotfiles $HOMEDIR/dotfiles
+  $HOMEDIR/dotfiles/setup.sh
   source $HOMEDIR/.bashrc
 fi
 
@@ -311,7 +309,7 @@ echo ""
 
 echo ""
 echo ""
-echo "That's all folks..."
+echo "Setup complete..."
 echo ""
 echo ""
 

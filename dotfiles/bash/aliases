@@ -1,0 +1,6 @@
+alias lsl='ls -ahlT'
+alias g='git'
+alias gl='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+alias mkdir='mkdir -p'
+alias v='vagrant'
+alias vssh='vagrant ssh'
