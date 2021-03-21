@@ -26,7 +26,6 @@ declare -a BREW_APPS=(
   npm               # Node Package Manager
   php               # PHP
   tldr              # Man Pages with practical examples
-  vim               # CLI Editor
   wget              # CLI HTTP File Retrieval
 )
 
