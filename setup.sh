@@ -37,7 +37,9 @@ declare -a BREW_CASK_APPS=(
   clementine               # Music Player
   dashlane                 # Password Manager
   dbschema                 # DB Schema Designer
+  deckset                  # MarkDown Slides
   diffmerge                # Diff GUI
+  discord                  # Message/Voice Chat
   docker                   # Docker for Mac
   google-chrome            # Chrome Browser
   google-backup-and-sync   # Google Cloud Storage
@@ -67,6 +69,7 @@ declare -a BREW_CASK_APPS=(
   virtualbox               # Virtual Machines
   visual-studio-code       # IDE
   vlc                      # Video Player
+  wrk                      # HTTP Benchmarking 
 )
 
 # Directories to create
