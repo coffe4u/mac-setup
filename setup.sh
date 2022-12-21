@@ -42,13 +42,11 @@ declare -a BREW_CASK_APPS=(
   google-backup-and-sync   # Google Cloud Storage
   iterm2                   # Terminal
   libreoffice              # LibreOffice
-  lsd		                   # Next Gen ls Command
   lunar                    # Control External Monitor Brightness 
   macdown                  # Markdown Editor
-  mark-text                # Mark Text Markdown Editor
+  mark-text                # Markdown Editor
   menumeters               # System Graphs in the Toolbar
   musicbrainz-picard       # MP3 Tagger
-  mysqlworkbench           # MySQL Workbench
   paw                      # API Tool
   phpstorm                 # PHP IDE
   qlmarkdown               # QuickLook generator for Markdown files
@@ -56,7 +54,6 @@ declare -a BREW_CASK_APPS=(
   rescuetime               # Productivity Tracking
   sequel-ace               # MySQL GUI
   slack                    # Chat/Communication
-  soundflower              # Virtual Audio Output Device
   sublime-text             # Text Editor
   tableplus                # MySQL GUI
   tower                    # Git GUI
