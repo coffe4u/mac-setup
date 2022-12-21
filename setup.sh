@@ -33,7 +33,6 @@ declare -a BREW_APPS=(
 declare -a BREW_CASK_APPS=(
   caffeine                 # Prevent Sleep Mode
   clementine               # Music Player
-  dashlane                 # Password Manager
   dbschema                 # DB Schema Designer
   deckset                  # MarkDown Slides
   diffmerge                # Diff GUI
