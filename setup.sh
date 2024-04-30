@@ -242,7 +242,7 @@ echo "Installing apps..."
 echo ""
 
 brew install ${BREW_APPS[@]}
-brew cask install ${BREW_CASK_APPS[@]}
+brew install --cask ${BREW_CASK_APPS[@]}
 brew cleanup
 
 # --- Firewall
