@@ -51,8 +51,6 @@ declare -a BREW_CASK_APPS=(
   sublime-text             # Text Editor
   tower                    # Git GUI
   transmit                 # File Transfers(FTP)
-  vagrant                  # Virtual Machine Management
-  virtualbox               # Virtual Machines
   visual-studio-code       # IDE
   vlc                      # Video Player
 )
