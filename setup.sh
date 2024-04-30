@@ -267,20 +267,6 @@ done
 echo "Done."
 echo ""
 
-# --- Dot Files
-
-echo ""
-echo "Cloning .dotfiles repo..."
-echo ""
-
-if [ ! -d $HOMEDIR/.dotfiles ]; then
-  cp -R dotfiles $HOMEDIR/dotfiles
-  $HOMEDIR/dotfiles/setup.sh
-  source $HOMEDIR/.bashrc
-fi
-
-echo "Done."
-echo ""
 
 
 # --- Laravel installer
