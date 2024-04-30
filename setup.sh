@@ -35,6 +35,7 @@ declare -a BREW_CASK_APPS=(
   clementine               # Music Player
   diffmerge                # Diff GUI
   docker                   # Docker for Mac
+  drata-agent              # Drata agent
   google-chrome            # Chrome Browser
   iterm2                   # Terminal
   libreoffice              # LibreOffice
@@ -42,6 +43,7 @@ declare -a BREW_CASK_APPS=(
   mark-text                # Markdown Editor
   menumeters               # System Graphs in the Toolbar
   musicbrainz-picard       # MP3 Tagger
+  orbstack                 # Docker Desktop alternative
   phpstorm                 # PHP IDE
   rectangle                # Resize windows with the keyboard
   sequel-ace               # MySQL GUI
