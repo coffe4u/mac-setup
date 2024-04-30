@@ -109,9 +109,6 @@ if ! $CONTINUE; then
 fi
 
 # --- Unix Environment
-
-# sudo
-
 echo ""
 echo "From here on we need root access. "
 echo "Enter your password..."
@@ -119,8 +116,8 @@ echo ""
 
 sudo
 
-# Hostname
 
+# Hostname
 echo ""
 echo "Setting hostname to $HOSTNAME..."
 echo ""
@@ -133,8 +130,8 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 echo "Done."
 echo ""
 
-# --- MacOS Updates
 
+# --- MacOS Updates
 echo ""
 echo "Installing MacOS updates..."
 echo ""
@@ -144,9 +141,8 @@ softwareupdate --install --all
 echo "Done."
 echo ""
 
+
 # --- GCC/Xcode Tools
-
-
 echo ""
 echo "Checking for Xcode..."
 echo ""
@@ -160,8 +156,8 @@ fi
 echo "Done."
 echo ""
 
-# --- MacOS Preferences
 
+# --- MacOS Preferences
 echo ""
 echo "Setting Mac OS preferences..."
 echo ""
@@ -221,8 +217,8 @@ killall SystemUIServer
 echo "Done."
 echo ""
 
-# --- Homebrew Package Manger
 
+# --- Homebrew Package Manger
 echo ""
 echo "Installing Homebrew..."
 echo ""
@@ -240,11 +236,12 @@ brew install ${BREW_APPS[@]}
 brew install --cask ${BREW_CASK_APPS[@]}
 brew cleanup
 
-# --- Firewall
 
+# --- Firewall
 echo ""
 echo "Enabling Firewall..."
 echo ""
+
 
 # Enable Filevault
 sudo fdesetup enable
@@ -254,7 +251,6 @@ echo ""
 
 
 # --- Directories
-
 echo ""
 echo "Adding custom directories..."
 echo ""
