@@ -23,10 +23,13 @@ declare -a BREW_APPS=(
   git               # Git Client
   gh                # GitHub CLI
   nodejs            # Node
+  node@18           # Node 18.x
   npm               # Node Package Manager
   php               # PHP
   tldr              # Man Pages with practical examples
   wget              # CLI HTTP File Retrieval
+  yarn              # Yarn build tool
+  zsh               # Z Shell
 )
 
 # GUI Apps to install via Homebrew Package Manager using Cask
