@@ -53,6 +53,7 @@ declare -a BREW_CASK_APPS=(
   transmit                 # File Transfers(FTP)
   visual-studio-code       # IDE
   vlc                      # Video Player
+  zoom                     # Zoom
 )
 
 # Directories to create
