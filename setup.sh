@@ -234,6 +234,8 @@ echo ""
 
 brew install ${BREW_APPS[@]}
 brew install --cask ${BREW_CASK_APPS[@]}
+brew node
+brew link --overwrite node@18
 brew cleanup
 
 
