@@ -33,36 +33,26 @@ declare -a BREW_APPS=(
 declare -a BREW_CASK_APPS=(
   caffeine                 # Prevent Sleep Mode
   clementine               # Music Player
-  dbschema                 # DB Schema Designer
-  deckset                  # MarkDown Slides
   diffmerge                # Diff GUI
-  discord                  # Message/Voice Chat
   docker                   # Docker for Mac
   google-chrome            # Chrome Browser
-  google-backup-and-sync   # Google Cloud Storage
   iterm2                   # Terminal
   libreoffice              # LibreOffice
-  lunar                    # Control External Monitor Brightness 
   macdown                  # Markdown Editor
   mark-text                # Markdown Editor
   menumeters               # System Graphs in the Toolbar
   musicbrainz-picard       # MP3 Tagger
-  paw                      # API Tool
   phpstorm                 # PHP IDE
-  qlmarkdown               # QuickLook generator for Markdown files
   rectangle                # Resize windows with the keyboard
-  rescuetime               # Productivity Tracking
   sequel-ace               # MySQL GUI
   slack                    # Chat/Communication
   sublime-text             # Text Editor
-  tableplus                # MySQL GUI
   tower                    # Git GUI
   transmit                 # File Transfers(FTP)
   vagrant                  # Virtual Machine Management
   virtualbox               # Virtual Machines
   visual-studio-code       # IDE
   vlc                      # Video Player
-  wrk                      # HTTP Benchmarking 
 )
 
 # Directories to create
