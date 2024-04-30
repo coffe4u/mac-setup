@@ -280,8 +280,13 @@ echo "Done."
 echo ""
 
 
-# --- Done!
 
+# --- Update locate DB
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+
+
+# --- Done!
 echo ""
 echo ""
 echo "Setup complete..."
