@@ -65,6 +65,7 @@ declare -a DIRS=(
   $HOMEDIR/.ssh/keys/public     ## SSH Public Key Store
   $HOMEDIR/.ssh/keys/private    ## SSH Private Key Store
   $HOMEDIR/Code                 ## Code Projects
+  $HOMEDIR/SQL                  ## SQL Backups
 )
 
 # -----------------------------------------------------------------------------
